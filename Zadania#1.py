@@ -110,4 +110,28 @@ print(is_equal1)
 print("Zadanie 14")
 p_result = 11111**2
 print(p_result)
-Time=3,16
+
+# 15
+print("Zadanie 15")
+a = 450
+b = 500
+
+is_equel = a == b
+print(is_equel)
+
+# 16
+print("Zadanie 16")
+napis = "It's always darkest before dawn."
+print(napis)
+
+# 17
+print("Zadanie 17")
+witaj = "witaj"
+imie = "Jozek"
+# 1sposób
+print(witaj + " " + imie)
+# 2sposób
+print(witaj, imie)
+
+# 18
+print("Zadanie 18")
