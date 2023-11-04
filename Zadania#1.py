@@ -133,5 +133,7 @@ print(witaj + " " + imie)
 # 2sposób
 print(witaj, imie)
 
-# 18
-print("Zadanie 18")
+
+# Przykład funkcji {end=""}- znak końca linii printu
+print("Coś", end=" ")
+print = "fajnego"
