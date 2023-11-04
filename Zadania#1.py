@@ -135,5 +135,40 @@ print(witaj, imie)
 
 
 # Przykład funkcji {end=""}- znak końca linii printu
+print("funkcja end=")
 print("Coś", end=" ")
-print = "fajnego"
+print("fajnego")
+
+# %%
+# _1 formatowanie stringów w stylu printf
+print("formatowanie stringów w stylu printf  %s")
+title = "General"
+name = "Kenobi"
+print("Hello there, %s %s" % (title, name))
+
+# _2 formatowanie i wyswietlanie stringów w stylu str.format()
+title = "General"
+name = "Kenobi"
+print("Hello there, {} {}".format(title, name))
+
+# _3 Interpolacja ciągów f-string
+title = "General"
+name = "Kenobi"
+print(f"Hello there, {title} {name}")
+
+a = 2
+b = 7
+print(f"{a} razy {b} do potęgi 2 to {(a*b)**2}")
+
+header1 = "Name"
+header2 = "Age"
+name2 = "John"
+age = 22
+
+print(f"|{header1:10}|{header2:10}|")
+print("-" * 27)
+print(f"|{name2:10}|{str(age):10}|")
+# %%
+
+# 19
+print("Zadanie 19")

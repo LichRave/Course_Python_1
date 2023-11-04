@@ -73,8 +73,7 @@ print("statement to be printed", end="white space or any character or string ")
 # 18
 print("Zadanie 18")
 
-# 19
-print("Zadanie 19")
+
 
 # 20
 print("Zadanie 20")
