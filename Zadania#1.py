@@ -169,6 +169,7 @@ print(f"|{header1:10}|{header2:10}|")
 print("-" * 27)
 print(f"|{name2:10}|{str(age):10}|")
 # %%
+#fkdslfj
 
 # 19
 print("Zadanie 19")
@@ -176,3 +177,5 @@ print("Zadanie 19")
 
 
 Pds
+
+# %%
