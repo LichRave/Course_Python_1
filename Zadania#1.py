@@ -1,15 +1,22 @@
 # 1
 print("Zadanie1")
+
 print("Разниц")
 print("Позов")
 
+# %%
+
 # 2
 print("Zadanie2")
+
 my_text = "Hello, World!"
 print(my_text)
 
+# %%
+
 # 3
 print("Zadanie3")
+
 my_text = "Hello, World!"
 print(type(my_text))
 print(type(-1))
@@ -17,19 +24,28 @@ print(type(2.1))
 print(type(1))
 print(type(-1))
 
+# %%
+
 # 4
 print("Zadanie4")
+
 glass_of_wather = 3
 print("I drank", glass_of_wather, "glasses of water today.")
 
+# %%
+
 # 5
 print("Zadanie5")
+
 glass_of_wather = 3
 glass_of_wather = glass_of_wather + 1
 print("I drank", glass_of_wather, "glasses of water today.")
 
+# %%
+
 # 6a-d
 print("Zadanie 6a CAŁKOWITA")
+
 x = 10
 print(type(x))
 
@@ -49,55 +65,81 @@ print("Zadanie6c LOGICZNE")
 x = True
 print(type(x))
 
+# %%
+
 # 7
 print("Zadanie 7")
+
 my_grade = "10"
 answer_5 = float(my_grade)
 print(type(answer_5))
 
+# %%
+
 # 8
 print("Zadanie 8")
+
 my_temp = 97.10
 answer_6 = int(my_temp)
 print(type(answer_6))
 
+# %%
+
 # 9
 print("Zadanie 9")
+
 my_temp = 97.10678657
 answer_7 = round(my_temp, 2)
 print(answer_7)
 
+# %%
+
 # 10
 print("Zadanie 10")
+
 lst = ["red", "green", "blue"]
 print(lst)
 
+# %%
+
 # 11
 print("Zadanie 11")
+
 a = 10
 b = 3
 result = a / b
 print(result)
 
+# %%
+
 # 12
 print("Zadanie 12")
+
 speed = 750
 speed += 100
 print(speed)
 
+# %%
+
 # 13
 print("Zadanie 13")
+
 remainder = 1000 % 400
 print(remainder)
 
+# %%
+
 # 14
 print("Zadanie 14")
+
 p_result = 11111**2
 print(p_result)
 
+# %%
 
 # 15
 print("Zadanie 15")
+
 a = 450
 b = 500
 
@@ -105,27 +147,38 @@ is_equal1 = a == b
 
 print(is_equal1)
 
+# %%
 
 # 14
 print("Zadanie 14")
+
 p_result = 11111**2
 print(p_result)
 
+# %%
+
 # 15
 print("Zadanie 15")
+
 a = 450
 b = 500
 
 is_equel = a == b
 print(is_equel)
 
+# %%
+
 # 16
 print("Zadanie 16")
+
 napis = "It's always darkest before dawn."
 print(napis)
 
+# %%
+
 # 17
 print("Zadanie 17")
+
 witaj = "witaj"
 imie = "Jozek"
 # 1sposób
@@ -136,6 +189,8 @@ print(witaj, imie)
 print("3 {} {}".format(witaj, imie))
 # 4sposób
 print("4 %s %s" % (witaj, imie))
+
+# %%
 
 # Przykład funkcji {end=""}- znak końca linii printu
 print("funkcja end=")
@@ -239,6 +294,7 @@ print(napis[4::-1])
 
 # 18
 print("Zadanie 18")
+
 napis01 = "It's always darkest before dawn."
 print(napis01)
 answer = napis01[0] + napis01[1] + napis01[-1]
@@ -246,31 +302,107 @@ print(answer)
 answer_v2 = napis01[0:2] + napis01[-1]
 print(answer_v2)
 
+# %%
+
 # 19
 print("Zadanie 19")
+
 print(napis01.replace(".", "!"))
 
 
+# %%
+
 # 20
 print("Zadanie 20")
+
 napis02 = "EWERY Strike Brings Me Close to the Next Home run."
 print(napis02)
 napis02 = napis02.lower()
 print(napis02)
 
+# %%
+
 # 21
 print("Zadanie 21")
+
 napis03 = "don't stop me now."
 print(napis03)
 napis03 = napis03.upper()
 print(napis03)
 
-# 21
+# %%
+# 22
 print("Zadanie 22")
+
 napis04 = "there are no traffic jams along the extra mile."
 print(napis04)
 # 1sposób
-anw01 = napis[0] == "A"
+anw01 = napis04[0] == "A"
 print(anw01)
 # 2sposób
-anw2 = napis.
+anw02 = napis04.startswith("A")
+print(anw02)
+
+# %%
+
+# 23
+print("Zadanie 23")
+
+napis05 = "There are no traffic jams along the extra mile ."
+print(napis05)
+anw03 = napis05.endswith(".")
+print(anw03)
+
+anw04 = napis05[-1] == "."
+print(anw04)
+
+# %%
+# 24
+print("Zadanie 24")
+napis06 = " The best revenge is massive success ."
+anw05 = napis06.index("v")  # jak nie ma znaku w napisie to wyrzuca błąd
+print(anw05)
+anw05 = napis06.find("1")  # jak nie ma znaku w napisie to zwraca -1
+print(anw05)
+
+# %%
+# 25
+print("Zadanie 25")
+
+napis07 = " People often say that motivation doesn ’t last . Well , neither does bathing . That ’s why we recommend it daily ."
+anw06 = napis07.count("a")
+anw07 = napis07.count("o")
+
+print(anw06)
+print(anw07)
+
+sp = anw06 > anw07
+print(sp)
+
+# %%
+# 26
+print("Zadanie 26")
+
+napis08 = "1.975.000"
+anw08 = len(napis08)
+print(anw08)
+
+# %%
+# 27
+wrd = "Toscana"
+a_index = wrd.index("a")
+ans_a = wrd[:a_index]
+print(ans_a)
+ans_b = wrd[3:]
+print(ans_b)
+ans_c = wrd[3:6]
+print(ans_c)
+ans_d = wrd[::2]
+print(ans_d)
+# len(wrd)-1
+ans_e = wrd[1:6:2]
+print(ans_e)
+ans_f = wrd[::-1]
+print(ans_f)
+
+# %%
