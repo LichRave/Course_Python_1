@@ -172,3 +172,7 @@ print(f"|{name2:10}|{str(age):10}|")
 
 # 19
 print("Zadanie 19")
+
+
+
+Pds
