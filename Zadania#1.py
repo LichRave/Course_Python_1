@@ -132,7 +132,10 @@ imie = "Jozek"
 print(witaj + " " + imie)
 # 2sposób
 print(witaj, imie)
-
+# 3sposób
+print("3 {} {}".format(witaj, imie))
+# 4sposób
+print("4 %s %s" % (witaj, imie))
 
 # Przykład funkcji {end=""}- znak końca linii printu
 print("funkcja end=")
@@ -168,14 +171,106 @@ age = 22
 print(f"|{header1:10}|{header2:10}|")
 print("-" * 27)
 print(f"|{name2:10}|{str(age):10}|")
+
+# zmiana sposobu wyswietlania zmiennr
+
+n = 109.2345654324
+print(f"{n:.3f}")
+
+procent = 0.71
+print(f"{procent:.1%}")
+
 # %%
-#fkdslfj
+
+variable = "math"
+print(f"Using Numeric {variable }")
+print(f"|{variable:25}|")
+print(f"|{variable:<25}|")
+print(f"|{variable:>25}|")
+print(f"|{variable:^25}|")
+
+print(f"Using Numeric {variable }")
+print(f"|{variable:=<25}|")
+print(f"|{variable:=>25}|")
+print(f"|{variable:=^25}|")
+
+grd = 10
+print(f"This prints without formatting {grd}")
+print(f"This prints with formatting {grd:20d}")
+print(f"This prints also with formatting {grd:10n}")
+print(f"This prints with spacing {grd:10d}\n")
+print(f"This prints with formatting {grd:f}")
+# %%
+# Napisy w Pythonie
+napis = "Hello World!"
+napis[0]
+napis[1]
+napis[2]
+napis[3]
+napis[4]
+# ostatnia wartość:
+napis[-1]
+# pokazije liczbę znaków w napisie len()
+sentence = "Lorem ipsum ka jdi klalps"
+print(len(sentence))
+sentence[24]
+
+# funkcja .index()
+hello = "hello, World!"
+print(hello.index(" "))
+
+# funkcja .count()
+print(hello.count("e"))
+
+# cięcie napisów, odwracanie i tp.
+# napis([start:end:step])
+print(napis[7:12])
+# co drugi
+print(napis[::2])
+# odwracanie
+print(napis[::-1])
+print(napis[4::-1])
+
+# .upper() - większe litery
+# .lower() - małe litery
+
+
+# %%
+
+# 18
+print("Zadanie 18")
+napis01 = "It's always darkest before dawn."
+print(napis01)
+answer = napis01[0] + napis01[1] + napis01[-1]
+print(answer)
+answer_v2 = napis01[0:2] + napis01[-1]
+print(answer_v2)
 
 # 19
 print("Zadanie 19")
+print(napis01.replace(".", "!"))
 
 
+# 20
+print("Zadanie 20")
+napis02 = "EWERY Strike Brings Me Close to the Next Home run."
+print(napis02)
+napis02 = napis02.lower()
+print(napis02)
 
-Pds
+# 21
+print("Zadanie 21")
+napis03 = "don't stop me now."
+print(napis03)
+napis03 = napis03.upper()
+print(napis03)
 
-# %%
+# 21
+print("Zadanie 22")
+napis04 = "there are no traffic jams along the extra mile."
+print(napis04)
+# 1sposób
+anw01 = napis[0] == "A"
+print(anw01)
+# 2sposób
+anw2 = napis.
