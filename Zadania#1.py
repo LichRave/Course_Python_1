@@ -390,9 +390,11 @@ print(anw08)
 # %%
 # 27
 wrd = "Toscana"
+#a) Przekrój słowo ze zmiennej wrd do pierwszego wystąpienia litery "a"(Tosc).
 a_index = wrd.index("a")
 ans_a = wrd[:a_index]
 print(ans_a)
+#b) Przekrój słowo wrd tak aby otrzymać "cana".
 ans_b = wrd[3:]
 print(ans_b)
 ans_c = wrd[3:6]
@@ -404,6 +406,7 @@ ans_e = wrd[1:6:2]
 print(ans_e)
 ans_f = wrd[::-1]
 print(ans_f)
+
 
 # %%
 # Повторить резку, время 5:17
