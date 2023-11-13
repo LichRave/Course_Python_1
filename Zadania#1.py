@@ -410,10 +410,6 @@ print(ans_d)
 # len(wrd)-1
 ans_e = wrd[1:6:2]
 print(ans_e)
-#f) Czy możesz przeciąć słowo wrd tak aby było w odwrotnej kolejności bez używania metody reverse?(anacsoT)
+# f) Czy możesz przeciąć słowo wrd tak aby było w odwrotnej kolejności bez używania metody reverse?(anacsoT)
 ans_f = wrd[::-1]
 print(ans_f)
-ans_f1 = reversedwrd
-print(ans_f1)
-# %%
-
