@@ -390,23 +390,30 @@ print(anw08)
 # %%
 # 27
 wrd = "Toscana"
-#a) Przekrój słowo ze zmiennej wrd do pierwszego wystąpienia litery "a"(Tosc).
+# a) Przekrój słowo ze zmiennej wrd do pierwszego wystąpienia litery "a"(Tosc).
 a_index = wrd.index("a")
 ans_a = wrd[:a_index]
 print(ans_a)
-#b) Przekrój słowo wrd tak aby otrzymać "cana".
+# b) Przekrój słowo wrd tak aby otrzymać "cana".
 ans_b = wrd[3:]
 print(ans_b)
+ans_b1 = wrd[-7:]
+print(ans_b1)
+# c) Przekrój wrd tak aby otrzymać napis "can".
 ans_c = wrd[3:6]
 print(ans_c)
+# d) Przekrój słowo wrd tak aby otrzymać co drugi znak
 ans_d = wrd[::2]
 print(ans_d)
+# e) Przekrój słowo wrd tak aby otrzymać co drugi znak bez pierwszego i ostatniego znaku.
+# 1
 # len(wrd)-1
 ans_e = wrd[1:6:2]
 print(ans_e)
+#f) Czy możesz przeciąć słowo wrd tak aby było w odwrotnej kolejności bez używania metody reverse?(anacsoT)
 ans_f = wrd[::-1]
 print(ans_f)
-
-
+ans_f1 = reversedwrd
+print(ans_f1)
 # %%
-# Повторить резку, время 5:17
+
