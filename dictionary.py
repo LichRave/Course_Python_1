@@ -28,7 +28,7 @@ human_2 = {
     "Hobby": ["Vieo games", "programming", "mountain trips"],
 }
 print(human_2)
-
+#
 print(human_2.get("hobby"))
 
 # usuwanie elementu ze slownika v1
@@ -37,6 +37,3 @@ print(human_2)
 # usuwanie elementu ze slownika v2
 x = human_2.pop("weight")
 print(human_2)
-
-
-# TIME------26 min
