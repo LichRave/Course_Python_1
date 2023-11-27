@@ -8,11 +8,3 @@ print(Krotka_2)
 Krotka_2 = 10, 2, 6, 5
 
 print(Krotka_2)
-
-
-# Zbiór
-
-# Stworz set
-animals = {"pies", "kot", "słoń"}
-
-print(animals, type(animals))
