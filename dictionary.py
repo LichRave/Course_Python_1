@@ -41,5 +41,3 @@ print(human_2)
 # 25/11/2023
 Text = "Artem"
 print(Text)
-
-# %%
