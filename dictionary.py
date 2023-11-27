@@ -29,7 +29,7 @@ human_2 = {
 }
 print(human_2)
 #
-print(human_2.get("hobby"))
+print(human_2.get("Hobby"))
 
 # usuwanie elementu ze slownika v1
 del human_2["Hobby"]
@@ -37,3 +37,9 @@ print(human_2)
 # usuwanie elementu ze slownika v2
 x = human_2.pop("weight")
 print(human_2)
+# %%
+# 25/11/2023
+Text = "Artem"
+print(Text)
+
+# %%
