@@ -194,23 +194,3 @@ dict = {
 }
 anw = len(dict)
 print(anw)
-
-
-# 01,12,23 WPROWADZANIE DANYCH
-
-print("ZAdanie 50")
-imie = input("Wprowadż imie,ok?: ")
-print(f"OK, masz na imie {imie}")
-
-print("ZAdanie 51")
-wiek = input("Wprowadż wiek,ok?: ")
-print(f"OK, masz {wiek} lat")
-
-#Type INT!!!
-print("ZAdanie 52")
-wiek_added = int(
-    input("Wprowadż swój wiek, ja powiem, ile będziesz miał za 50 lat, ok?: ")
-)
-print(f"OK, za 50 lat będziesz miał {wiek_added + 50} lat")
-
-print("ZAdanie 54")
