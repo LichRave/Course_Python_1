@@ -7,6 +7,8 @@ Created on Fri Oct  6 11:21:04 2023
 # First comment
 
 # %%
+
+Print("training from scratch, day 16 (12.02.24)")
 print(2 + 2)
 
 print(3 * 3)
