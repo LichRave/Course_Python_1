@@ -8,7 +8,7 @@ Created on Fri Oct  6 11:21:04 2023
 
 # %%
 
-Print("training from scratch, day 16 (12.02.24)")
+Print("training from scratch, day 17 (17.02.24)")
 print(2 + 2)
 
 print(3 * 3)
