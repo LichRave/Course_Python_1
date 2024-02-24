@@ -8,7 +8,7 @@ Created on Fri Oct  6 11:21:04 2023
 
 # %%
 
-Print("training from scratch, day 17 (17.02.24)")
+Print("training from scratch, day 18 (22.02.24)")
 print(2 + 2)
 
 print(3 * 3)
@@ -70,33 +70,3 @@ print("Py" "thon")
 
 # %%
 print("statement to be printed", end="white space or any character or string ")
-
-# %%
-# 18
-print("Zadanie 18")
-
-
-
-# 20
-print("Zadanie 20")
-
-# 21
-print("Zadanie 21")
-
-# 22
-print("Zadanie 22")
-
-# 23
-print("Zadanie 23")
-
-# 24
-print("Zadanie 24")
-
-# 25
-print("Zadanie 25")
-
-# 26
-print("Zadanie 26")
-
-# 27
-print("Zadanie 27")
