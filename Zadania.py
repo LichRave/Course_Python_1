@@ -25,3 +25,11 @@ with open("Liczby_kwadratowe.txt", "a+") as f:
 
 
 print(content)
+
+# %% 3 najdłuższe słowo w pliku
+
+with open("slowa.txt") as f:
+    content = f.read()  # Cały tekst jako napis
+    slowa = content.split()  # pojedyncze słowa
+    najdluzsze = max(slowa, key=len)
+    print(najdluzsze)
