@@ -101,8 +101,9 @@ def fib(n: int):
 fib(10)
 print("Hello")
 
-# 7 znajomość struktur danych takich jak lista, krotka, słownik i zbiór. W tym pojęcia mutowalności i składni list/dict/set comprehension
 
+# ___________________________________________________________________________
+# 7 znajomość struktur danych takich jak lista, krotka, słownik i zbiór. W tym pojęcia mutowalności i składni list/dict/set comprehension
 """
 Mutowalne(zmienialne):
     lista -> kolejność jest okreslona (jak wpisaliysmy tak bedzie)
@@ -114,7 +115,6 @@ Nie mutowalne(nie zmienialne):
 """
 
 # Mutowalnosc
-
 lista = [1, 2, 3]
 # mozemy dodac element do istnejacej listy
 lista.append("10")
@@ -129,23 +129,18 @@ print(krotka)
 """
 
 # Tworzenie przez comprehension:
-
 lista_comprehension = [element for element in range(0, 1000, 25)]
-
 # Alternatywa z pętla:
-
 lista_petla = []
 for element in range(0, 1000, 25):
     lista_petla.append(element)
 """
 składnia
 [<element dodawany do listy> for <zmienna petli> in <kolekcja po ktorej iterujemy> (opcjonalnie) if <warunek dodania do nowej listy>]
-
 """
 print(lista_comprehension)
 
 # Słownik
-
 slownik_comp = {
     f"d{key}": value * 2 for key, value in enumerate(lista_comprehension) if value > 500
 }
@@ -154,7 +149,6 @@ print(type(slownik_comp))
 """
 składnia
 {<klucz dodawany do slownika>:<element dodawany do slownika> for <zmienna petli> in <kolekcja po ktorej iterujemy> (opcjonalnie) if <warunek dodania do nowej listy>}
-
 """
 
 # zbior
@@ -175,7 +169,6 @@ x = lista.pop()  # usuwa listy element o danym indexie lub ostatni i zwraca jego
 lista.insert(2, "")  # dodaje elemrnt do listy na konkretny numer indexu
 
 # dict
-
 slownik_comp.get(
     "key", ""
 )  # wyciagnij wartośc dla zadanego klucza jezeli nie istnieje dostajmey None lub default
@@ -241,7 +234,6 @@ False | True
 """
 
 # sprawne używanie cięcia list
-
 """
 Składnia:
 lista[start:stop:step]
@@ -364,8 +356,6 @@ with open("test_2.txt", "a") as f:
 
 
 # Tworzenie klas
-
-
 class SuperPartia:
     def __init__(self, nazwa, ilosc_czlonkow):  # nazywana konstruktorem
         self.nazwa = nazwa
@@ -391,8 +381,6 @@ class SuperPartia:
 
 
 super_partia_pis = SuperPartia("Prawo i Sprawiedliwość", 45000)
-
-
 # print(super_partia_pis)
 # super_partia_pis.przydziel_stanowisko(Formułowanie_Programu_Politycznego = "Jan Kowalski",Uczestnictwo_w_Wyborach="Jarek" )
 
