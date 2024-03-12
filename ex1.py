@@ -101,3 +101,93 @@ def total(a=5, *num, **phonebook):
 print(total(10, 1, 2, 4, Jack=1223, John=2231, Max=2654))
 
 # %%
+age = 20
+message = f"I am {age} years old."
+print(message)
+
+# %%
+lng = "Python"
+wrs = "3.10"
+
+std = f"Learning {lng} {wrs}"
+print(std)
+
+# %%
+price = 199.99
+
+print(f"The item costs $ {price}.")
+# %%
+price = 69.99
+discount = 0.1
+
+cena = price - (price * discount)
+r_cena = round(cena, 2)
+
+print(f"The item costs {r_cena} PLN")
+
+# %%
+product_name = "Shoe"
+price = 49.99
+in_stock = True
+
+print(
+    f"""
+Product Name: {product_name}
+Price: $ {price}
+Is Available: {in_stock}
+"""
+)
+
+# or
+product_name = "Shoe"
+price = 49.99
+in_stock = True
+
+print("Product Name:", product_name)
+print("Price: $", price)
+print("Is Available:", in_stock)
+
+# %%
+units_used = 150
+cost_per_unit = 0.15
+total_cost = units_used * cost_per_unit
+
+print("units used:", units_used)
+print("cost per unit: $", cost_per_unit)
+print("total cost: $", total_cost)
+# %%
+version = "1.0.1"
+separator = "-" * 40
+
+print(separator)
+print(f"VERSION: {version}")
+print(separator)
+
+# %%
+data = "01-01-2021"
+mail1 = "jannowak@poczta.com"
+
+autor_pr = f"author: {mail1}"
+date_pr = f"date: {data}"
+simp_sep = "=" * 40
+
+print(simp_sep)
+print(f"{autor_pr} \n{date_pr}")
+print(simp_sep)
+# %%
+store_name = 'Shopshoe'
+item_name = 'Running shoes'
+item_price = 100.00
+item_discount = 0.30
+ 
+discounted_price = item_price * (1 - item_discount)
+ 
+message = (
+    f'Welcome to {store_name}!\n'
+    f'{"-" * 50}\n'
+    f'Today\'s special is the {item_name}, which normally costs '
+    f'${item_price:.2f}.\nBut for a limited time, you can get it '
+    f'for ${discounted_price:.2f} ({item_discount:.0%} off)!'
+)
+
+# %%
