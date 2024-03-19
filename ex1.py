@@ -175,19 +175,21 @@ print(simp_sep)
 print(f"{autor_pr} \n{date_pr}")
 print(simp_sep)
 # %%
-store_name = 'Shopshoe'
-item_name = 'Running shoes'
+store_name = "Shopshoe"
+item_name = "Running shoes"
 item_price = 100.00
 item_discount = 0.30
- 
+sep = "=" * 50
+
 discounted_price = item_price * (1 - item_discount)
- 
+
 message = (
-    f'Welcome to {store_name}!\n'
-    f'{"-" * 50}\n'
-    f'Today\'s special is the {item_name}, which normally costs '
-    f'${item_price:.2f}.\nBut for a limited time, you can get it '
-    f'for ${discounted_price:.2f} ({item_discount:.0%} off)!'
+    f"Welcome to {store_name}!\n"
+    f"{sep}\n"
+    f"Today's special is the {item_name}, which normally costs "
+    f"${item_price:.2%}.\nBut for a limited time, you can get it "
+    f"for ${discounted_price:.2f} ({item_discount:.0%} off)!"
 )
 
+print(message)
 # %%

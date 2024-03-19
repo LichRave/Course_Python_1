@@ -8,7 +8,7 @@ Created on Fri Oct  6 11:21:04 2023
 
 # %%
 
-print("training from scratch, day 21 (12.03.24)")
+print("training from scratch, day 23 (15.03.24)")
 print(2 + 2)
 print(3 * 3)
 
@@ -69,3 +69,18 @@ print("Py" "thon")
 
 # %%
 print("statement to be printed", end="white space or any character or string ")
+
+
+# %%
+if __name__ == "__main__":
+    a = 5
+    b = 0
+    try:
+        result = a / b
+        print(f"result{result}")
+    except:
+        print("nie dziel na zero!")
+    finally:
+        print("Koniec")
+
+# %%
