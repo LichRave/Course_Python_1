@@ -171,3 +171,15 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base
 from sqlalchemy import Column, String, Integer, Date, Numeric
 
+# Połączenie do DB
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker, declarative_base
+db = 
+create_engine('mysql+mysqlconnector://root:aJSSBVkmtQQCdetovrmR@localhost:3306
+/cinematic', echo=True)
+# dialect+driver://username:password@host:port/database
+Base = declarative_base()
+Session = sessionmaker( bind=db)
+session = Session()
+
+
